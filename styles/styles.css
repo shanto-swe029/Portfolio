@@ -770,3 +770,61 @@ nav ul a:hover {
     background-color: #001eff;
     color: #fff;
 }
+
+/* Contact Section */
+
+.contact .container {
+    width: 100%;
+    min-height: 90vh;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.contact-header h4{
+    font-size: 3rem;
+    color: #147efb;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.contact-message p{
+    font-size: 1.5rem;
+
+}
+
+.contact-message h5{
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-message span{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin: 2.5rem 0;
+    cursor: pointer;
+    justify-content: center;
+}
+
+@media (max-width: 900px) {
+    .contact-message span {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 1.6rem;
+    }
+}
+
+.contact-message span a{
+    font-size: 5rem;
+    color: #1d2f50;
+}
+
+.contact-message span i {
+    transition: all 0.2s;
+}
+
+.contact-message span i:hover {
+    color: #147efb;
+}
